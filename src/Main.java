@@ -25,6 +25,9 @@ public class Main {
 
         
 
+        //Create Phone Number 6kyu
+        //System.out.println(CreatePhoneNumber.createPhoneNumber(new int[] {1,2,3,4,5,6,7,8,9,0}));
+
         //Mexican Wave 6kyu
         //System.out.println(Arrays.toString(MexicanWave.wave("two words")));
 
