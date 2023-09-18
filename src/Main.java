@@ -16,11 +16,17 @@ public class Main {
          */
 
         //Build Tower 6kyu
+        /*
         String[] Building = BuildTower.towerBuilder(100);
         for (String b : Building)
         {
             System.out.println(b);
-        }
+        }*/
+
+        
+
+        //Mexican Wave 6kyu
+        //System.out.println(Arrays.toString(MexicanWave.wave("two words")));
 
         //Sort The Odd 6kyu
         //SortTheOdd.sortArray(new int[] {9,8,7,6,5,4,3,2,1,0});
