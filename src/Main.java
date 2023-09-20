@@ -16,7 +16,7 @@ public class Main {
          */
 
         //Number of trailing zeros of N 5kyu
-        System.out.println(NumberOfTrailingZerosOfN.zeros(16789574));
+        System.out.println(NumberOfTrailingZerosOfN.zeros(10));
 
         //Build Tower 6kyu
         /*

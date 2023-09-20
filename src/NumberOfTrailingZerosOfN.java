@@ -1,12 +1,15 @@
 import java.math.BigInteger;
+import java.lang.Math;
 
 public class NumberOfTrailingZerosOfN {
     public static int zeros(int n) {
-        System.out.println(n);
         BigInteger result = BigInteger.valueOf(1);
 
-        result = getFactorial(n);
-        System.out.println(result);
+        //result = getFactorial(n);
+
+        //System.out.println(result);
+
+        System.out.println(getFactorial(n));
 
         int[] resultArray = result.toString().chars().map(i -> i-'0').toArray();
 
@@ -21,28 +24,22 @@ public class NumberOfTrailingZerosOfN {
         return count;
     }
     public static boolean isFirst = true;
-    public static BigInteger getFactorial(int num){
-        BigInteger factorial = BigInteger.valueOf(1);
-        int diffrennceFromActualNum = 0;
-        BigInteger previousSum = BigInteger.valueOf(num);
 
-        if (num == 0)
-            return BigInteger.valueOf(1);
-        if (num%2==0){
-            while (num-diffrennceFromActualNum>=2){
-                if(!isFirst){
-                    //previousSum=previousSum+(num-diffrennceFromActualNum);
-                    previousSum = previousSum.add(BigInteger.valueOf(num-diffrennceFromActualNum));
-                }
-                isFirst = false;
-                //factorial *= previousSum;
-                factorial = factorial.multiply(previousSum);
-                diffrennceFromActualNum+=2;
-            }
-        }else{
-            //factorial = num*getFactorial(num-1);
-            factorial = getFactorial(num-1).multiply(BigInteger.valueOf(num));
-        }
+
+    public static double getFactorial(int num){
+        //timer
+        long start = System.currentTimeMillis();
+
+        //need to make this calculation more acurate
+        double factorial = num*Math.log(num)-num-1;
+        //need to calculate e power factorial
+
+        //the print time
+        long end = System.currentTimeMillis();
+        System.out.println("Time spend on calculating factorial: " + (end-start)/1000. + "s");
+
+
+
         return factorial;
     }
 }
