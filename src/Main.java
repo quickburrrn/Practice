@@ -15,6 +15,9 @@ public class Main {
 
          */
 
+        //Number of trailing zeros of N 5kyu
+        System.out.println(NumberOfTrailingZerosOfN.zeros(16789574));
+
         //Build Tower 6kyu
         /*
         String[] Building = BuildTower.towerBuilder(100);
@@ -24,7 +27,10 @@ public class Main {
         }*/
 
         //Find odd int 6kyu
-        System.out.println(FindOddInt.findIt(new int[] {1,1,2}));
+        //System.out.println(FindOddInt.findIt(new int[] {1,1,2,3}));
+
+        //Good vs Evil 6kyu
+        //System.out.println(GoodvsEvil.battle("1 1 1 1 1 1", "1 1 1 1 1 1 1"));
 
         //Create Phone Number 6kyu
         //System.out.println(CreatePhoneNumber.createPhoneNumber(new int[] {1,2,3,4,5,6,7,8,9,0}));
