@@ -5,6 +5,9 @@ public class Main {
     {
         Sum sum = new Sum();
 
+        //testing
+        System.out.println(test.Test(255,255,255));
+
         //mine sweeper 1kyu
         /*
         String[] map = {"Simple map 1",
@@ -16,7 +19,7 @@ public class Main {
          */
 
         //RBG to Hex Conversion 5Kyu
-        System.out.println(RgbToHex.rgb(0,0,0));
+        //System.out.println(RgbToHex.rgb(-20,275,125));
 
         //Number of trailing zeros of N 5kyu
         //System.out.println(NumberOfTrailingZerosOfN.zeros(10));
