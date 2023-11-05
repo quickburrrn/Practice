@@ -15,8 +15,11 @@ public class Main {
 
          */
 
+        //RBG to Hex Conversion 5Kyu
+        System.out.println(RgbToHex.rgb(0,0,0));
+
         //Number of trailing zeros of N 5kyu
-        System.out.println(NumberOfTrailingZerosOfN.zeros(10));
+        //System.out.println(NumberOfTrailingZerosOfN.zeros(10));
 
         //Build Tower 6kyu
         /*
@@ -30,7 +33,7 @@ public class Main {
         //System.out.println(FindOddInt.findIt(new int[] {1,1,2,3}));
 
         //Good vs Evil 6kyu
-        System.out.println(FindOddInt.findIt(new int[] {1,2,2,3,3,3,4,3,3,3,2,2,1}));
+        //System.out.println(FindOddInt.findIt(new int[] {1,2,2,3,3,3,4,3,3,3,2,2,1}));
 
         //Create Phone Number 6kyu
         //System.out.println(CreatePhoneNumber.createPhoneNumber(new int[] {1,2,3,4,5,6,7,8,9,0}));
